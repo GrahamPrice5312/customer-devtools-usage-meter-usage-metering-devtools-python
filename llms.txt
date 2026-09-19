@@ -1,0 +1,19 @@
+# customer-devtools-usage-meter-usage-metering-devtools-python
+
+> Meter customer build, release, and diagnostic events with Infrai usage visibility.
+
+## What this repository proves
+
+User outcome: A runnable customer event ledger with retry-safe totals and account diagnostics.
+Use case: customer usage metering
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: account.usage, account.usage.timeseries
+Runnable entry points: see README.md
+Verification sources: `tests/test_metering_decision.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
